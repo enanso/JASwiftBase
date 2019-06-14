@@ -1,0 +1,11 @@
+framework module JASwiftBase {
+  umbrella header "JASwiftBase.h"
+
+  export *
+  module * { export * }
+}
+
+module JASwiftBase.Swift {
+    header "JASwiftBase-Swift.h"
+    requires objc
+}
